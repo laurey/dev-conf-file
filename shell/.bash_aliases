@@ -1,0 +1,17 @@
+alias ls='ls -G'
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls - CF'
+
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+alias cls='clear'
+alias gd='git diff'
+alias gl='git log --graph'
+alias gls='git log --stat'
+alias glp='git log -p -b -w'
+alias gitpr='git pull --rebase'
+alias glna='git log $(git rev-parse --abbrev-ref HEAD) --no-merges --not --remotes=*/alpha'
+alias glnm='git log $(git rev-parse --abbrev-ref HEAD) --no-merges --not --remotes=*/master'
